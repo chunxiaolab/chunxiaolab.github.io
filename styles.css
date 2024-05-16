@@ -35,51 +35,57 @@ nav a:hover {
 main {
     display: flex;
     justify-content: space-around;
-    padding: 0.5rem; /* Reduced padding to 25% of original 2rem */
-    margin-top: 1rem; /* Added margin to reduce space between nav and main */
+    padding: 1rem;
+    margin-top: 1rem; /* Reduce the space between the nav and main */
 }
 
 .column {
-    flex: 1;
     padding: 1rem;
 }
 
-.column.left,
-.column.right {
+.column.left {
+    flex: 1;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    max-width: 33%; /* Left column takes up one-third of the width */
 }
 
-.column .top-left,
-.column .bottom-left,
-.column .top-center,
-.column .bottom-center,
-.column .top-right,
-.column .bottom-right {
+.column.right {
+    flex: 2;
+    max-width: 67%; /* Right column takes up two-thirds of the width */
+}
+
+.pi-image {
+    width: 100%;
+    height: auto;
     margin-bottom: 1rem;
 }
 
-.graphic-abstract {
-    width: 100%;
-    height: auto;
-    margin-top: 0.5rem; /* Add margin to separate from the title */
+.pi-details {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.pi-details li {
+    margin-bottom: 0.5rem;
+    color: #000;
 }
 
 h2 {
     font-size: 1.5rem;
     color: #000080; /* Dark blue color for titles */
     text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.bottom-left p {
-    font-size: 1rem;
-    color: #000;
-    margin: 0.5rem 0;
-}
-
-.result-image {
-    width: 100%;
-    height: auto;
+h3 {
+    font-size: 1.2rem;
+    color: #000080; /* Dark blue color for titles */
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 footer {
