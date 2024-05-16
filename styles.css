@@ -35,7 +35,8 @@ nav a:hover {
 main {
     display: flex;
     justify-content: space-around;
-    padding: 2rem;
+    padding: 0.5rem; /* Reduced padding to 25% of original 2rem */
+    margin-top: 1rem; /* Added margin to reduce space between nav and main */
 }
 
 .column {
@@ -59,24 +60,10 @@ main {
     margin-bottom: 1rem;
 }
 
-.image-container {
-    position: relative;
-    display: inline-block;
-}
-
 .graphic-abstract {
     width: 100%;
     height: auto;
-}
-
-.graphic-label {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    padding: 0.5rem;
-    font-size: 1rem;
+    margin-top: 0.5rem; /* Add margin to separate from the title */
 }
 
 h2 {
