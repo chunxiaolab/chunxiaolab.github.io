@@ -48,7 +48,6 @@ main {
 .column.right {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .column .top-left,
