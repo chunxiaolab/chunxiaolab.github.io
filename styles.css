@@ -558,7 +558,7 @@ h2 {
 h3 {
     font-size: 1.2rem;
     color: #000080;
-    text-align: left;
+    text-align: justify-all;
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
