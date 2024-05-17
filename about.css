@@ -1,34 +1,21 @@
-/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
     line-height: 1.5; /* 设置全局行间距 */
-    box-sizing: border-box; /* 包含内边距和边框 */
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit; /* 包含内边距和边框 */
 }
 
 header {
     background-color: #333;
     padding: 1rem 0;
-    width: 100%; /* 确保导航栏宽度为100% */
+    width: 100%;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto; /* 居中对齐 */
-    width: 100%; /* 确保导航栏内容宽度为100% */
-    padding: 0 1rem; /* 增加内边距以适应较小屏幕 */
 }
 
 nav .logo {
@@ -38,7 +25,7 @@ nav .logo {
 
 nav a {
     color: #fff;
-    margin: 0.5rem 1rem;
+    margin: 0 1rem;
     text-decoration: none;
     font-size: 1rem;
 }
@@ -51,23 +38,23 @@ main {
     padding: 1rem;
     margin-top: 1rem;
     margin-bottom: 4rem; /* Add bottom margin to avoid footer overlap */
-    width: 100%; /* 确保 main 部分宽度自适应 */
-    max-width: 1200px; /* 设置最大宽度 */
-    box-sizing: border-box;
-    margin: 0 auto; /* 居中对齐 */
+    display: flex;
 }
 
 .about-container {
     display: flex;
-    flex-direction: column;
     width: 100%;
-    margin: 0 auto;
 }
 
-.left, .right {
-    padding: 1rem;
-    box-sizing: border-box;
-    flex: 1; /* 使左右部分宽度自适应 */
+.left {
+    flex: 1;
+    max-width: 33%;
+    margin-right: 2rem;
+}
+
+.right {
+    flex: 2;
+    max-width: 67%;
 }
 
 .pi-title {
@@ -114,8 +101,5 @@ footer {
     padding: 1rem;
     background-color: #333;
     color: #fff;
-    width: 100%; /* 确保 footer 宽度为100% */
-    max-width: 1200px; /* 设置最大宽度 */
-    margin: 0 auto; /* 居中对齐 */
+    width: 100%;
 }
-
