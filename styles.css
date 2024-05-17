@@ -512,27 +512,22 @@ nav a:hover {
 }
 
 main {
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.about-container {
     display: flex;
-    justify-content: space-around;
-    padding: 1rem;
-    margin-top: 1rem; /* Reduce the space between the nav and main */
+    justify-content: space-between;
 }
 
-.column {
-    padding: 1rem;
-}
-
-.column.left {
+.left {
     flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 33%; /* Left column takes up one-third of the width */
+    margin-right: 1rem;
 }
 
-.column.right {
+.right {
     flex: 2;
-    max-width: 67%; /* Right column takes up two-thirds of the width */
 }
 
 .pi-image {
@@ -554,7 +549,7 @@ main {
 
 h2 {
     font-size: 1.5rem;
-    color: #000080; /* Dark blue color for titles */
+    color: #000080;
     text-align: left;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -562,9 +557,21 @@ h2 {
 
 h3 {
     font-size: 1.2rem;
-    color: #000080; /* Dark blue color for titles */
-    text-align: center;
-    margin-bottom: 1rem;
+    color: #000080;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 0.5rem;
 }
 
 footer {
