@@ -65,7 +65,7 @@ main {
 }
 
 .pi-image {
-    width: 100%; /* 确保图片适应父容器 */
+    width: 25%; /* 确保图片适应父容器 */
     height: auto;
     margin-bottom: 1rem;
 }
