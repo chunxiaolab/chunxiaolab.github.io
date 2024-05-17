@@ -295,86 +295,6 @@ h2 {
     margin-bottom: 1rem;
 }
 
-.position-list {
-    list-style-type: none;
-    padding: 0;
-}
-
-.position-list li {
-    font-size: 1rem;
-    color: #000;
-    margin-bottom: 0.5rem;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #333;
-    padding: 1rem 0;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-nav .logo {
-    max-height: 50px;
-    margin-right: 2rem;
-}
-
-nav a {
-    color: #fff;
-    margin: 0 1rem;
-    text-decoration: none;
-    font-size: 1rem;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-main {
-    padding: 1rem;
-    margin-top: 1rem; /* Reduce the space between the nav and main */
-    display: flex;
-    justify-content: center;
-}
-
-.column {
-    flex: 1;
-    padding: 1rem;
-}
-
-.column.full {
-    max-width: 100%;
-}
-
-h2 {
-    font-size: 1.5rem;
-    color: #000080; /* Dark blue color for titles */
-    text-align: left;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
 .research-list {
     list-style-type: none;
     padding: 0;
@@ -577,6 +497,88 @@ li {
 footer {
     text-align: center;
     padding: 0.8rem;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .logo {
+    max-height: 50px;
+    margin-right: 2rem;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1rem;
+    margin-top: 1rem; /* Reduce the space between the nav and main */
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    flex: 1;
+    padding: 1rem;
+}
+
+.column.full {
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #000080; /* Dark blue color for titles */
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
     background-color: #333;
     color: #fff;
     position: fixed;
