@@ -3,7 +3,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    line-height: 1.5; /* 设置行间距 */
+    line-height: 1.5; /* 设置全局行间距 */
 }
 
 header {
@@ -36,26 +36,36 @@ nav a:hover {
 main {
     padding: 1rem;
     margin-top: 1rem;
-    min-height: calc(100vh - 8rem); /* Ensure main takes up full height minus header and footer */
+    margin-bottom: 4rem; /* Add bottom margin to avoid footer overlap */
+    display: flex;
 }
 
 .about-container {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    width: 100%;
 }
 
 .left {
     flex: 1;
+    max-width: 33%;
     margin-right: 2rem;
 }
 
 .right {
     flex: 2;
+    max-width: 67%;
+}
+
+.pi-title {
+    font-size: 1.5rem;
+    color: #000080; /* 标题深蓝色 */
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 
 .pi-image {
-    width: 30%; /* 确保图片适应父容器 */
+    width: 100%; /* 确保图片适应父容器 */
     height: auto;
     margin-bottom: 1rem;
 }
@@ -72,31 +82,17 @@ main {
     color: #000;
 }
 
-h2 {
+.right h2 {
     font-size: 1.5rem;
     color: #000080; /* 标题深蓝色 */
-    text-align: justify;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-h3 {
-    font-size: 1.2rem;
-    color: #000080; /* 标题深蓝色 */
-    text-align: justify-all;
+    text-align: left;
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    font-size: 1rem;
-    color: #000;
-    margin-bottom: 0.5rem;
+.right p {
+    text-align: justify;
+    line-height: 1.5; /* 设置行间距 */
 }
 
 footer {
@@ -105,5 +101,4 @@ footer {
     background-color: #333;
     color: #fff;
     width: 100%;
-    bottom: 0;
 }
