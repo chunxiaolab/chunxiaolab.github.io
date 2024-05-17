@@ -466,6 +466,7 @@ main {
     list-style-type: none;
     padding: 0;
     text-align: left;
+    line-height: 1.5;/*设置行间距*/
 }
 
 .pi-details li {
