@@ -38,6 +38,7 @@ main {
     margin-top: 0.5rem; /* Reduce the space between the nav and main */
     display: flex;
     justify-content: center;
+    width: 100%;
     min-height: calc(100vh - 8rem); /* Ensure main takes up full height minus header and footer */
 }
 
