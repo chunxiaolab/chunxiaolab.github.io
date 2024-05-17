@@ -3,6 +3,105 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .logo {
+    max-height: 50px;
+    margin-right: 2rem;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem; /* Reduced padding to 25% of original 2rem */
+    margin-top: 1rem; /* Added margin to reduce space between nav and main */
+}
+
+.column {
+    flex: 1;
+    padding: 1rem;
+}
+
+.column.left,
+.column.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.column .top-left,
+.column .bottom-left,
+.column .top-center,
+.column .bottom-center,
+.column .top-right,
+.column .bottom-right {
+    margin-bottom: 1rem;
+}
+
+.graphic-abstract {
+    width: 100%;
+    height: auto;
+    margin-top: 0.5rem; /* Add margin to separate from the title */
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #000080; /* Dark blue color for titles */
+    text-align: left;
+}
+
+.bottom-left p {
+    font-size: 1rem;
+    color: #000;
+    margin: 0.5rem 0;
+}
+
+.result-image {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
     line-height: 1.5;/*设置行间距*/
 }
 
