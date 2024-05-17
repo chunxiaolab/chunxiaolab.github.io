@@ -1,1 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;/*设置行间距*/
+}
+
+header {
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .logo {
+    max-height: 50px;
+    margin-right: 2rem;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    margin-top: 0.5rem; /* Reduce the space between the nav and main */
+    min-height: calc(100vh - 8rem); /* Ensure main takes up full height minus header and footer */
+}
+
+.column {
+    flex: 1;
+    padding: 1rem;
+}
+
+.member {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.member-image {
+    max-width: 100px;
+    margin-right: 1rem;
+}
+
+.member-info h3 {
+    font-size: 1.2rem;
+    color: #000080; /* Dark blue color for titles */
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.member-info p {
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    bottom: 0;
+}
 
