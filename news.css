@@ -1,1 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;/*设置行间距*/
+}
 
+header {
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .logo {
+    max-height: 50px;
+    margin-right: 2rem;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1rem;
+    margin-top: 0.5rem; /* Reduce the space between the nav and main */
+    display: flex;
+    justify-content: center;
+    min-height: calc(100vh - 8rem); /* Ensure main takes up full height minus header and footer */
+}
+
+.column {
+    flex: 1;
+    padding: 1rem;
+}
+
+.column.full {
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #000080; /* Dark blue color for titles */
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.news-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.news-list li {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    bottom: 0;
+}
