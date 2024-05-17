@@ -3,6 +3,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    line-height: 1.5;/*设置行间距*/
 }
 
 header {
@@ -17,7 +18,7 @@ nav {
 }
 
 nav .logo {
-    max-height: 50px;
+    max-height: 100px;
     margin-right: 2rem;
 }
 
@@ -36,7 +37,7 @@ main {
     display: flex;
     justify-content: space-around;
     padding: 0.5rem; /* Reduced padding to 25% of original 2rem */
-    margin-top: 1rem; /* Added margin to reduce space between nav and main */
+    margin-top: 0.2rem; /* Added margin to reduce space between nav and main */
 }
 
 .column {
