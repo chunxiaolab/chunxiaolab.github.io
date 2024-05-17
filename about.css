@@ -75,6 +75,7 @@ main {
     padding: 0;
     text-align: left;
     line-height: 1.5; /* 设置行间距 */
+    color: #000080; /* 标题深蓝色 */
 }
 
 .pi-details li {
@@ -101,4 +102,20 @@ footer {
     background-color: #333;
     color: #fff;
     width: 100%;
+}
+@media (min-width: 768px) {
+    .about-container {
+        flex-direction: row;
+    }
+
+    .left {
+        order: 1;
+        max-width: 33%;
+        margin-right: 2rem;
+    }
+
+    .right {
+        order: 2;
+        max-width: 67%;
+    }
 }
