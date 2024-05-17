@@ -523,7 +523,7 @@ main {
 
 .left {
     flex: 1;
-    margin-right: 1rem;
+    margin-right: 0.8rem;
 }
 
 .right {
@@ -576,7 +576,7 @@ li {
 
 footer {
     text-align: center;
-    padding: 1rem;
+    padding: 0.8rem;
     background-color: #333;
     color: #fff;
     position: fixed;
