@@ -550,7 +550,7 @@ main {
 h2 {
     font-size: 1.5rem;
     color: #000080;
-    text-align: left;
+    text-align: justify-all;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
