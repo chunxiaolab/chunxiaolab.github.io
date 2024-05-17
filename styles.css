@@ -61,7 +61,7 @@ main {
 }
 
 .graphic-abstract {
-    width: 100%;
+    width: 60%;
     height: auto;
     margin-top: 0.5rem; /* Add margin to separate from the title */
 }
@@ -88,7 +88,7 @@ footer {
     padding: 1rem;
     background-color: #333;
     color: #fff;
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
     bottom: 0;
 }
