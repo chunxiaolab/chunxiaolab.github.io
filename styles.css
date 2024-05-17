@@ -61,7 +61,7 @@ main {
 }
 
 .graphic-abstract {
-    width: 60%;
+    width: 80%;
     height: auto;
     margin-top: 0.5rem; /* Add margin to separate from the title */
 }
@@ -79,7 +79,7 @@ h2 {
 }
 
 .result-image {
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
