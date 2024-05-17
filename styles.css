@@ -39,6 +39,7 @@ main {
     padding: 0.5rem; /* Reduced padding to 25% of original 2rem */
     margin-top: 0.2rem; /* Added margin to reduce space between nav and main */
     min-height: calc(100vh - 8rem); /* Ensure main takes up full height minus header and footer */
+    width: 100%;
 }
 
 .column {
