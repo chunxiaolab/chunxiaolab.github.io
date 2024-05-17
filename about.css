@@ -104,19 +104,3 @@ footer {
     color: #fff;
     width: 100%;
 }
-@media (min-width: 768px) {
-    .about-container {
-        flex-direction: row;
-    }
-
-    .left {
-        order: 1;
-        max-width: 33%;
-        margin-right: 2rem;
-    }
-
-    .right {
-        order: 2;
-        max-width: 67%;
-    }
-}
